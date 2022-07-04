@@ -1,0 +1,23 @@
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.footer h6{
+    color: white;
+    padding-top: 3px;
+}
+
+.footer h6 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer h6 a:hover{
+    color: blue;
+}

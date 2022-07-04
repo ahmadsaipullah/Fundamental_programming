@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+              </script>
+  
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+</head>
+<body>
+
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>MERK_LAPTOP</th>
+                <th>TYPE</th>
+                <th>HARGA</th>
+                <th>STOCK</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <td>MACBOOK</td>
+                <td>AIR Z</td>
+                <td>22.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>MACBOOK</td>
+                <td>Z</td>
+                <td>18.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>LENOVO THINKPAD</td>
+                <td>H225151</td>
+                <td>17.000.000</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>ASUS ZENBOOK</td>
+                <td>H15FG5</td>
+                <td>20.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>ACER PREDATOR</td>
+                <td>HH20DOI</td>
+                <td>20.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>MACBOOK Z</td>
+                <td>15165FDS</td>
+                <td>22.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>MACBOOK AIR</td>
+                <td>ZSFS454</td>
+                <td>18.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>LENOVO IDEPAD</td>
+                <td>PH15421</td>
+                <td>17.000.000</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>ASUS VIVOBOOK</td>
+                <td>H145454</td>
+                <td>20.000.000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>ACER NITRO</td>
+                <td>HH20DHGHOI</td>
+                <td>20.000.000</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript">$(document).ready( function () {
+        $('#table_id').DataTable();
+    } );</script>
+</body>
+</html>
